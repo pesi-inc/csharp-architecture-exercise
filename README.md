@@ -6,7 +6,7 @@ These exercises are expected to take around 2 hours in total. However, time spen
 
 Write 2 functions (each with a different implementation) which accept a string and return a string containing the same characters as the input string -- but in a random order. Compare these implementations and describe why you might prefer one implementation over another (and under what circumstances). One of the implementations should use the System.Random type and its Next(int minValue, int maxValue) overload, while the other implementation isn't constrained to System.Random usage.
 
-Deliverables:
+## Deliverables
 - C# source file(s), optionally including a Visual Studio solution and project(s) as you see fit
 - A narrative comparing your implementations
 
@@ -31,7 +31,9 @@ Finally, our technical team has identified the following risks:
 - Our transactional email processor can have high latency, which can lead to seconds long waits when sending emails
 - If we don't have visibility into performance and error rates, we won't be able to respond to application issues in a timely manner
 
-Your task is to create a design document for this system which satisfies stakeholder requirements, demonstrates the given desired qualities, and seeks to mitigate the technical risks our team has identified. Deliverables:
+Your task is to create a design document for this system which satisfies stakeholder requirements, demonstrates the given desired qualities, and seeks to mitigate the technical risks our team has identified.
+
+## Deliverables
 
 - A diagram with your proposed architecture (for a rough idea of scope, a single page diagram with ~8-10 boxes)
 - A narrative describing your architectural choices as they relate to requirements, qualities, and technical risks (for a rough idea of length, ~2-3 paragraphs)
